@@ -8,8 +8,8 @@ public class Decisao {
 	if (args.length < 2) {
 		
 		
-		System.out.println ("Precisa de 2 parâmetros");
-		System.exit (0);
+		System.out.println ("Precisa de 2 parâmetros"); //se o usuario nao passar 2 parametros
+		System.exit (0); //sair do system
 		
 		
 	}
@@ -18,24 +18,26 @@ public class Decisao {
 	int val2 =  Integer.parseInt (args[1]);
 	
 	if ((val1 < 5) && (val2 != 2)) {
-		
 		System.out.println ("Entrou no if");
-		
-	}	
-	
-	else if (val2 < 5) {
-	
-		System.out.println ("Entrou no else if");
-		
+	}else if (val2 < 5) {
+		System.out.println ("Entrou no else if");	
+	}else {
+		System.out.println ("Entrou no else");	
 	}
-	
-	else {
-	
-	System.out.println ("Entrou no else");
+
+
 		
-	}
-		
-		
+	String resp = "u";
+	switch (resp.toUpperCase()) {
+		case "S": 
+			System.out.println ("Sim");
+			break;
+		case "N": 
+			System.out.println ("Não");
+			break;
+		default:
+			System.out.println ("Outro valor");
+		}
 	
 	}
 	
