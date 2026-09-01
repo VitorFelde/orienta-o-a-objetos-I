@@ -23,7 +23,7 @@ public class Aluno {
     }
 
     public void setMatricula (String m){
-        this.nome = m;
+        this.matricula = m;
     }
 
     public float getNota1 (){
@@ -46,14 +46,14 @@ public class Aluno {
     }
 
     public void setNota3 (float n3){
-        this.nota1 = n3;
+        this.nota3 = n3;
     }
        public float getNota4 (){
         return this.nota4;
     }
 
     public void setNota4 (float n4){
-        this.nota1 = n4;
+        this.nota4 = n4;
     }
 
     public float calcularMedia (){
