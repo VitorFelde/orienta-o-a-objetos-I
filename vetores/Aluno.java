@@ -1,4 +1,5 @@
 public class Aluno {
+    //aqui é a criação de atributos, são como as váriaveis em C
     private String nome;
     private String matricula;
     private float nota1;
@@ -6,15 +7,15 @@ public class Aluno {
     private float nota3;
     private float nota4;
 
-    //metodo getter - serve para retornar o valor de um atributo 
+    //metodo getter - como criamos os atributos de maneira privada, com o get conseguimos puxar o valor de um atributo depois no arquivo turma
     public String getNome(){ //chamamos para pegar algo de dentro
         return this.nome;
         //this faz referencia a um atributo ou metodod declarado no escopo da classe
     }
 
-    //metodo setter - serve para atribuir valor a um atributo
-    public void setNome (String n){ //chamamos para guardar algo dentro
-        this.nome = n; 
+    //metodo setter - mesma coisa do get, mas ao inves de pegar um valor com isso podemos atribuir coisas para nossos atributos em outro arquivo
+    public void setNome (String n){ //passamos parametro apenas para o set, pois depois vamos pedir ao usuario digitar o nome e precisamos do parametro pra salvar o nome
+        this.nome = n; //para salvar no nome que criamos la em cima 
     }
 
     public String getMatricula (){
