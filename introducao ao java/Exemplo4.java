@@ -8,7 +8,7 @@ public class Exemplo4 {
 		Pet pet1 = new Pet ();//instancia um objeto da classe Pet do Pet.java, e pega as strings de la				
 		
 		pet1.especie = "cavalo";
-		pet1.nome = "Connor McNigger ";
+		pet1.nome = "Connor McGregor ";
 		pet1.idade = 15;
 
 		exibirMensagem (cliente, pet1);
@@ -16,7 +16,7 @@ public class Exemplo4 {
 		Pet pet2 = new Pet ();//instancia um objeto da classe Pet do Pet.java, e pega as strings de la				
 		
 		pet2.especie = "canguru";
-		pet2.nome = "Islam Macaxota";
+		pet2.nome = "Islam Makachev";
 		pet2.idade = 10;
 		
 		exibirMensagem (cliente, pet2);
