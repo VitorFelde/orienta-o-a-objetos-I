@@ -4,12 +4,13 @@ public class Voos {
     private String data;
     private String hora;
     private int qtdePassageiros;
+    private int idVoo;
     private Passageiros[] vetPassageiros;
 
 
 
     public Voos() {
-        this.vetPassageiros = new Passageiros[10];
+        this.vetPassageiros = new Passageiros[50];
     }
 
     public String getOrigem() {
@@ -47,4 +48,12 @@ public class Voos {
     public int getQtdePassageiros() {
         return this.qtdePassageiros;
     }
+    
+    public int getIdVoo (){
+        return this.idVoo;
+    }
+     public int setIdVoo (int id){
+        return this.idVoo;
+    }
+    
 }
